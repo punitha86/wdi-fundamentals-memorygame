@@ -72,13 +72,20 @@ footer{
 	height: 0;
 	font-size: 0;
 	}
-	.name{
-		color:#f15b31;
-		font-weight: 700;
-	}
-	nav:hover{
-		border-bottom: 2px solid transparent;
-	}
-	a:hover{
-		border-color: white;
-	}
+.name{
+	color:#f15b31;
+	font-weight: 700;
+}
+nav:hover{
+	border-bottom: 2px solid transparent;
+}
+a:hover{
+	border-color: white;
+}
+.rstButton{
+	border-radius:10%;
+	font-weight: 700;
+	background:#00a6b3;
+	color:#ffffff;
+	font-size: 20px;
+}
