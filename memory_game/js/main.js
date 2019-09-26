@@ -58,7 +58,7 @@ var createBoard = function () {
 createBoard();
 var resetBoard = function () {
     event.stopPropagation();
-    var list = document.getElementById("game-board")
+    var list = document.getElementById("game-board");
     while (list.firstChild)
         list.removeChild(list.firstChild);
     cardInPlay = [];
